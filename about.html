@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Jai Adhithya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Jai Adhithya</h1>
+      <p class="subtitle">AI & Data Science • Full-Stack Dev</p>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="achievements.html">Certificates</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <div class="card">
+        <p>Hello — I’m Jai Adhithya, a B.Tech student specializing in AI & Data Science. I build ML models, REST APIs, and UI frontends. I love computer vision projects (like AI Vision Scan), and I solve algorithmic problems regularly on coding platforms.</p>
+        <p>Current focus: model deployment, end-to-end ML apps, backend systems, and improving software engineering best practices.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jai Adhithya</p>
+  </footer>
+
+  <!-- CHATBASE WIDGET (Option B) -->
+  <script src="https://www.chatbase.co/embed.min.js" id="NKu9r6kmCjFoW_flBBAd6" defer></script>
+
+  <script>
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>

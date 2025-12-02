@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Jai Adhithya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Jai Adhithya</h1>
+      <p class="subtitle">AI & Data Science • Full-Stack Dev</p>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="achievements.html">Certificates</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>AI Vision Scan</h2>
+      <div class="card">
+        <p><strong>Overview:</strong> Diabetic retinopathy detector built with MobileNetV2. Preprocessing + inference served via Flask with a lightweight web UI for image upload and instant results.</p>
+        <p><strong>Tech:</strong> Python, TensorFlow, MobileNetV2, Flask, HTML/CSS</p>
+      </div>
+
+      <h2>Project Idea Board</h2>
+      <div class="card">
+        <p><strong>Overview:</strong> Full-stack web app to submit and upvote project ideas. Admin panel for approvals and REST APIs for integration.</p>
+        <p><strong>Tech:</strong> Spring Boot, MySQL, Thymeleaf</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jai Adhithya</p>
+  </footer>
+
+  <!-- CHATBASE WIDGET (Option B) -->
+  <script src="https://www.chatbase.co/embed.min.js" id="NKu9r6kmCjFoW_flBBAd6" defer></script>
+
+  <script>
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>

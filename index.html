@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jai Adhithya — Portfolio</title>
+  <style>
+    .hero-photo {
+  width: 150px;            /* size of the photo */
+  height: 150px;           /* size of the photo */
+  border-radius: 50%;      /* makes it circular */
+  border: 4px solid white; /* optional border */
+  object-fit: cover;       /* ensures the image fills the circle */
+  display: block;
+  margin: 0 auto 20px;     /* centers and adds bottom spacing */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-photo:hover {
+  transform: scale(1.05);              /* slight zoom on hover */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* subtle shadow */
+}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Jai Adhithya</h1>
+      <p class="subtitle">AI & Data Science • Full-Stack Dev</p>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="achievements.html">Certificates</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <img src="professional-photo.png" alt="Jai Adhithya" class="hero-photo">
+        <h2>Hi, I'm Jai Adhithya K👋</h2>
+        <p>AI & Data Science student passionate about Machine Learning, Data Science and building production-ready apps.</p>
+        <div class="cta-row">
+          <a class="btn" href="projects.html">View Projects</a>
+          <a class="btn ghost" href="about.html">About Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <h3>AI Vision Scan</h3>
+          <p>Flask + MobileNetV2 model for diabetic retinopathy detection. Image preprocessing, inference endpoint and user-friendly UI.</p>
+        </article>
+
+        <article class="card">
+          <h3>Project Idea Board</h3>
+          <p>Spring Boot + MySQL app to submit, browse and upvote project ideas with admin moderation and REST APIs.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jai Adhithya — <a href="https://github.com/adhithya2525" target="_blank">GitHub</a>  <a href="https://www.linkedin.com/in/jai-adhithya-65b983328/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="https://www.chatbase.co/embed.min.js" id="NKu9r6kmCjFoW_flBBAd6" defer></script>
+
+  <script>
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>

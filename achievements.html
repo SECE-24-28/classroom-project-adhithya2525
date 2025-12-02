@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Certificates & Achievements — Jai</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Jai Adhithya</h1>
+      <p class="subtitle">AI & Data Science • Full-Stack Dev</p>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="achievements.html" class="active">Certificates</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Certificates & Achievements</h2>
+      <ul class="achieve-list">
+        <li class="card">Second Place – Freshathon 2025</li>
+        <li class="card">First Place – Intercollege Paper Presentation (CIT)</li>
+        <li class="card">Data Science Foundation — Great Learning</li>
+        <li class="card">Mastering Data Structures in C & C++</li>
+        <li class="card">C Programming — Great Learning</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jai Adhithya</p>
+  </footer>
+
+  <!-- CHATBASE WIDGET (Option B) -->
+  <script src="https://www.chatbase.co/embed.min.js" id="NKu9r6kmCjFoW_flBBAd6" defer></script>
+
+  <script>
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
